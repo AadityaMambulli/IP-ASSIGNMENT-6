@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;}
+        img { max-width: 100%; height: auto; }
+        .image-container { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Mountain Side House</h1>
+    
+    <!-- 1. Clickable Image aligned center, links to Google -->
+    <div class="image-container">
+        <a href="https://www.google.com" target="_blank">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600" alt="Mountain side house">
+        </a>
+        <p>Mountain side house (click to visit Google)</p>
+    </div>
+    
+    <!-- 2. Audio with controls -->
+    <h2>Birds Chirping</h2>
+    <audio controls style="width: 100%;">
+        <source src="audioANDvideo/mixkit-morning-birds-2472.wav" type="audio/wav">
+    </audio><hr>
+    
+    <!-- 3. Video with controls -->
+    <h2>Birds</h2>
+    <video controls width="100%" style="max-width: 600px;">
+        <source src="audioANDvideo/birds.mp4.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
